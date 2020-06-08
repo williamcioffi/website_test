@@ -7,7 +7,7 @@
     background-color: #000000;
 }
 
-li, a, button {
+li, a {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -17,13 +17,13 @@ li, a, button {
 
 header {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
   padding: 30px 10%;
 }
 
 .logo {
-  cursor: pointer;
+  margin-right: auto;
 }
 
 .nav_links {
@@ -42,17 +42,4 @@ header {
 
 .nav_links li a:hover {
   color: #0088a9;
-}
-
-button {
-  padding: 9px 25px;
-  background-color: rgba(156,0,156,0.75);
-  border: none;
-  border-radius: 50px;
-  cursor: pointer;
-  transition: all 0.3s ease 0s;
-}
-
-button:hover {
-  background-color: rgba(156,0,156,1);
 }
