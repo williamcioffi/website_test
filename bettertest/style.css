@@ -96,15 +96,15 @@ nav {
   transition: all 0.3s ease;
 }
 
-@media screen and (max-width:858px) {  
-  .site{
+@media screen and (max-width:858px) { 
+  body {
     overflow-x: hidden;
-    position: relative;
   }
   
  .sitecontent {
     padding: 10px 0px;
     margin: 0px 5%;
+    overflow-x: hidden;
   }
   
   .nav-links {
