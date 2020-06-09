@@ -10,6 +10,10 @@ html {
   overflow-y: scroll;
 }
 
+.site {
+  position: relative;
+}
+
 li, a {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
@@ -116,7 +120,7 @@ nav {
 }
 
 @media screen and (max-width:858px) {
-  body  {
+  .site  {
     overflow-x: hidden;
   }
   
@@ -130,6 +134,7 @@ nav {
     right: 0px;
     height: 86vh;
     top: 14vh;
+    opacity: 0;
     background-color: #ffffff;
     display: flex;
     flex-direction: column;
@@ -149,6 +154,7 @@ nav {
 }
 
 .nav-active {
+  opacity: 1;
   background-color: #dddddd;
   transform: translateX(0%);
 }
