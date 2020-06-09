@@ -4,7 +4,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: #000000;
+    background-color: #dddddd;
 }
 
 li, a {
@@ -15,12 +15,44 @@ li, a {
   text-decoration: none;
 }
 
+/*
 header {
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  margin: auto;
   padding: 30px 10%;
   background-color: #dddddd;
+  background-size: 100%;
+  position: fixed;
+}
+*/
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.sitecontent {
+  padding-top: 125px;
+  margin: 0 10%;
+}
+
+header {
+  display: flex;
+  position: fixed;
+  overflow: hidden;
+  top: 0px;
+  width: 100%;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 10px 0;
+  background-color: #dddddd;
+}
+
+.logocontainer {
+  margin-right: auto;
+  padding: 0 10%;
 }
 
 .logo {
@@ -51,4 +83,3 @@ header {
 .nav_links li.selected a:hover {
   color: #9d9a92;
 }
-
