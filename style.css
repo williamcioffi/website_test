@@ -92,4 +92,8 @@ header {
   .logocontainer {
     padding: 0;
   }
+  
+  .sitecontent {
+    padding: 0 2%;
+  }
 }
