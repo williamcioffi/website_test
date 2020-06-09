@@ -12,6 +12,7 @@ html {
 
 .site {
   position: relative;
+  overflow-x: hidden;
 }
 
 li, a {
@@ -120,10 +121,6 @@ nav {
 }
 
 @media screen and (max-width:858px) {
-  .site  {
-    overflow-x: hidden;
-  }
-  
   .sitecontent {
     padding: 10px 0px;
     margin: 0px 5%;
