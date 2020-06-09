@@ -14,19 +14,6 @@ li, a {
   text-decoration: none;
 }
 
-/*
-header {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  margin: auto;
-  padding: 30px 10%;
-  background-color: #dddddd;
-  background-size: 100%;
-  position: fixed;
-}
-*/
-
 body {
   margin: 0;
   padding: 0;
