@@ -97,14 +97,14 @@ nav {
 }
 
 @media screen and (max-width:858px) { 
-  body {
+  .site {
     overflow-x: hidden;
+    position: relative;
   }
   
  .sitecontent {
     padding: 10px 0px;
     margin: 0px 5%;
-    overflow-x: hidden;
   }
   
   .nav-links {
