@@ -58,10 +58,6 @@ header {
   padding: 0 10%;
 }
 
-.logo {
-  margin-right: auto;
-}
-
 .nav_links {
   list-style: none;
 }
@@ -87,8 +83,22 @@ header {
   color: #9d9a92;
 }
 
-@media (max-width: 858px){
+@media (max-width: 858px) {
   .nav_links li {
     display: block;
+  }
+  
+  header {
+    position: relative;
+  }
+  
+  .sitecontent {
+    padding-top: 25px;
+  }
+}
+
+@media (max-width : 400px) {
+  .logocontainer {
+    padding: 0;
   }
 }
