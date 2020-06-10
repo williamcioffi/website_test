@@ -102,20 +102,19 @@ nav {
   .navlinks {
     position: fixed;
     background-color: #dddddd;
-    height: 100vh;
+    height: 50vh;
     width: 100%;
-    padding-bottom: 40%;
     flex-direction: column;
-    clip-path: circle(100px at 90% -20%);
-    -webkit-clip-path: circle(100px at 90% -20%);
+    clip-path: circle(100px at 90% -30%);
+    -webkit-clip-path: circle(100px at 90% -30%);
     transition: all 1s ease-out;
     pointer-events: none;
     z-index: 0;
   }
   
   .navlinks.open {
-    clip-path: circle(1200px at 90% -20%);
-    -webkit-clip-path: circle(1200px at 90% -20%);
+    clip-path: circle(800px at 90% -30%);
+    -webkit-clip-path: circle(800px at 90% -30%);
     pointer-events: all;
   }
    
