@@ -65,6 +65,15 @@ nav {
   list-style: none;
 }
 
+.sitecontent a {
+  color: #0088a9;
+  text-decoration: none;
+}
+
+.sitecontent a:hover {
+  text-decoration: underline;
+}
+
 @media screen and (max-width: 450px) {
   .sitecontent {
     margin: 10px 10px;
